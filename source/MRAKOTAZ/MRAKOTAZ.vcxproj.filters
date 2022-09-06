@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BitmapFrame.cpp">
+      <Filter>bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapReader.cpp">
+      <Filter>bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="YuvReader.cpp">
+      <Filter>yuv</Filter>
+    </ClCompile>
+    <ClCompile Include="YuvWriter.cpp">
+      <Filter>yuv</Filter>
+    </ClCompile>
+    <ClCompile Include="YuvFrame.cpp">
+      <Filter>yuv</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerThread.cpp">
+      <Filter>core\jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoResetEvent.cpp">
+      <Filter>core\jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayBuilder.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Dimension.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Rgb2Yuv.cpp">
+      <Filter>core\conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="Blending.cpp">
+      <Filter>core\conversions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{3d52f734-869b-42ba-a2f9-a30685a23dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c37c54ab-e05d-4644-80c1-9ab1cc40999d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay">
+      <UniqueIdentifier>{d2fa854e-4454-49a7-9ce1-8c783b890be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\jobs">
+      <UniqueIdentifier>{25ddf669-c0f6-4171-ba7d-70ca3c5faeb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yuv">
+      <UniqueIdentifier>{3bba1cc5-48d9-46c8-9d85-69b47d99a4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bitmap">
+      <UniqueIdentifier>{d61fd2ed-4c1d-4d1b-969c-419fa127873a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\conversions">
+      <UniqueIdentifier>{a1d5f7e6-0a21-4f40-b329-593fe43a22e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitmapFrame.h">
+      <Filter>bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultOr.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="JobQueue.hpp">
+      <Filter>core\jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="JobManager.hpp">
+      <Filter>core\jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="YuvReader.h">
+      <Filter>yuv</Filter>
+    </ClInclude>
+    <ClInclude Include="YuvWriter.h">
+      <Filter>yuv</Filter>
+    </ClInclude>
+    <ClInclude Include="YuvFrame.h">
+      <Filter>yuv</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerThread.h">
+      <Filter>core\jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoResetEvent.h">
+      <Filter>core\jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayBuilder.h">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapReader.h">
+      <Filter>bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Dimension.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Rgb2Yuv.h">
+      <Filter>core\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="Blending.h">
+      <Filter>core\conversions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
